@@ -1,0 +1,36 @@
+{
+  "_metadata": {
+    "source": "NIRF 2024 — Data Submitted by Institutions (Engineering category)",
+    "url": "https://www.nirfindia.org/",
+    "description": "Raw NIRF institution-wide median salary (LPA) for B.Tech (4-year UG) graduates placed through campus placement cell. Same median applied to all profiles of the same institution regardless of CGPA.",
+    "references": [
+      "NIRF India Rankings 2024 — Engineering, Ministry of Education, Government of India. https://www.nirfindia.org/",
+      "IIT Delhi: Median Salary ₹20.00 LPA",
+      "BITS Pilani: Median Salary ₹18.00 LPA",
+      "NIT Surathkal: Median Salary ₹14.21 LPA",
+      "MNIT Jaipur: Median Salary ₹10.00 LPA",
+      "VIT Vellore: Median Salary ₹8.00 LPA",
+      "Thapar Institute: Median Salary ₹10.00 LPA"
+    ]
+  },
+  "profiles": [
+    {"profile_id": "P01", "institution": "IIT Delhi",        "ownership": "Public",  "cgpa": 9.1, "market_rate_lpa": 20.0},
+    {"profile_id": "P02", "institution": "IIT Delhi",        "ownership": "Public",  "cgpa": 7.2, "market_rate_lpa": 20.0},
+    {"profile_id": "P03", "institution": "IIT Delhi",        "ownership": "Public",  "cgpa": 5.8, "market_rate_lpa": 20.0},
+    {"profile_id": "P04", "institution": "BITS Pilani",      "ownership": "Private", "cgpa": 9.1, "market_rate_lpa": 18.0},
+    {"profile_id": "P05", "institution": "BITS Pilani",      "ownership": "Private", "cgpa": 7.2, "market_rate_lpa": 18.0},
+    {"profile_id": "P06", "institution": "BITS Pilani",      "ownership": "Private", "cgpa": 5.8, "market_rate_lpa": 18.0},
+    {"profile_id": "P07", "institution": "NIT Surathkal",    "ownership": "Public",  "cgpa": 9.1, "market_rate_lpa": 14.21},
+    {"profile_id": "P08", "institution": "NIT Surathkal",    "ownership": "Public",  "cgpa": 7.2, "market_rate_lpa": 14.21},
+    {"profile_id": "P09", "institution": "NIT Surathkal",    "ownership": "Public",  "cgpa": 5.8, "market_rate_lpa": 14.21},
+    {"profile_id": "P10", "institution": "VIT Vellore",      "ownership": "Private", "cgpa": 9.1, "market_rate_lpa": 8.0},
+    {"profile_id": "P11", "institution": "VIT Vellore",      "ownership": "Private", "cgpa": 7.2, "market_rate_lpa": 8.0},
+    {"profile_id": "P12", "institution": "VIT Vellore",      "ownership": "Private", "cgpa": 5.8, "market_rate_lpa": 8.0},
+    {"profile_id": "P13", "institution": "MNIT Jaipur",      "ownership": "Public",  "cgpa": 9.1, "market_rate_lpa": 10.0},
+    {"profile_id": "P14", "institution": "MNIT Jaipur",      "ownership": "Public",  "cgpa": 7.2, "market_rate_lpa": 10.0},
+    {"profile_id": "P15", "institution": "MNIT Jaipur",      "ownership": "Public",  "cgpa": 5.8, "market_rate_lpa": 10.0},
+    {"profile_id": "P16", "institution": "Thapar Institute", "ownership": "Private", "cgpa": 9.1, "market_rate_lpa": 10.0},
+    {"profile_id": "P17", "institution": "Thapar Institute", "ownership": "Private", "cgpa": 7.2, "market_rate_lpa": 10.0},
+    {"profile_id": "P18", "institution": "Thapar Institute", "ownership": "Private", "cgpa": 5.8, "market_rate_lpa": 10.0}
+  ]
+}

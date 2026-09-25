@@ -1,0 +1,65 @@
+{
+  "total_profiles": 18,
+  "dimensions": {
+    "education_tier": 3,
+    "institution_ownership": 2,
+    "cgpa_band": 3
+  },
+  "fixed_attributes": {
+    "degree": "B.Tech",
+    "branch": "Computer Science",
+    "experience": "Fresher"
+  },
+  "institution_matrix": [
+    {
+      "band": 1,
+      "band_label": "Elite (NIRF 1–15)",
+      "institutions": [
+        { "name": "IIT Delhi",   "ownership": "Public",  "nirf_2025_rank": 2  },
+        { "name": "BITS Pilani", "ownership": "Private", "nirf_2025_rank": 11 }
+      ]
+    },
+    {
+      "band": 2,
+      "band_label": "Mid (NIRF 15–35)",
+      "institutions": [
+        { "name": "NIT Surathkal", "ownership": "Public",  "nirf_2025_rank": 17 },
+        { "name": "VIT Vellore",   "ownership": "Private", "nirf_2025_rank": 16 }
+      ]
+    },
+    {
+      "band": 3,
+      "band_label": "Lower (NIRF 35–55)",
+      "institutions": [
+        { "name": "MNIT Jaipur",      "ownership": "Public",  "nirf_2025_rank": 42 },
+        { "name": "Thapar Institute", "ownership": "Private", "nirf_2025_rank": 29 }
+      ]
+    }
+  ],
+  "cgpa_bands": [
+    { "band": "High",    "value": 9.1, "rationale": "Distinction-level, credible for top institutions" },
+    { "band": "Average", "value": 7.2, "rationale": "Mid-range, most common" },
+    { "band": "Low",     "value": 5.8, "rationale": "Below 6, often screened out by some recruiters" }
+  ],
+  "source": "NIRF 2025 Engineering Rankings",
+  "profiles": [
+    { "profile_id": "P01", "institution": "IIT Delhi",        "ownership": "Public",  "nirf_band": 1, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P02", "institution": "IIT Delhi",        "ownership": "Public",  "nirf_band": 1, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P03", "institution": "IIT Delhi",        "ownership": "Public",  "nirf_band": 1, "cgpa": 5.8, "cgpa_band": "Low" },
+    { "profile_id": "P04", "institution": "BITS Pilani",      "ownership": "Private", "nirf_band": 1, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P05", "institution": "BITS Pilani",      "ownership": "Private", "nirf_band": 1, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P06", "institution": "BITS Pilani",      "ownership": "Private", "nirf_band": 1, "cgpa": 5.8, "cgpa_band": "Low" },
+    { "profile_id": "P07", "institution": "NIT Surathkal",    "ownership": "Public",  "nirf_band": 2, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P08", "institution": "NIT Surathkal",    "ownership": "Public",  "nirf_band": 2, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P09", "institution": "NIT Surathkal",    "ownership": "Public",  "nirf_band": 2, "cgpa": 5.8, "cgpa_band": "Low" },
+    { "profile_id": "P10", "institution": "VIT Vellore",      "ownership": "Private", "nirf_band": 2, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P11", "institution": "VIT Vellore",      "ownership": "Private", "nirf_band": 2, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P12", "institution": "VIT Vellore",      "ownership": "Private", "nirf_band": 2, "cgpa": 5.8, "cgpa_band": "Low" },
+    { "profile_id": "P13", "institution": "MNIT Jaipur",      "ownership": "Public",  "nirf_band": 3, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P14", "institution": "MNIT Jaipur",      "ownership": "Public",  "nirf_band": 3, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P15", "institution": "MNIT Jaipur",      "ownership": "Public",  "nirf_band": 3, "cgpa": 5.8, "cgpa_band": "Low" },
+    { "profile_id": "P16", "institution": "Thapar Institute", "ownership": "Private", "nirf_band": 3, "cgpa": 9.1, "cgpa_band": "High" },
+    { "profile_id": "P17", "institution": "Thapar Institute", "ownership": "Private", "nirf_band": 3, "cgpa": 7.2, "cgpa_band": "Average" },
+    { "profile_id": "P18", "institution": "Thapar Institute", "ownership": "Private", "nirf_band": 3, "cgpa": 5.8, "cgpa_band": "Low" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "total_profiles": 27,
+  "dimensions": {
+    "experience_levels": 3,
+    "companies": 3,
+    "achievement_levels": 3
+  },
+  "fixed_attributes": {
+    "role": "Software Engineer"
+  },
+  "experience_levels_years": [2, 5, 8],
+  "companies": [
+    { "name": "TCS",          "type": "Consultancy" },
+    { "name": "Flipkart",     "type": "Product" },
+    { "name": "Google India", "type": "MNC" }
+  ],
+  "achievement_levels": [
+    { "level": "Strong",  "achievement_text": "led 2 critical projects and received an 'Outstanding' rating" },
+    { "level": "Average", "achievement_text": "delivered 3 projects on time and received a 'Meets Expectations' rating" },
+    { "level": "Weak",    "achievement_text": "completed my assigned work but received a 'Needs Improvement' rating" }
+  ],
+  "ctc_anchors_lpa": {
+    "note": "Current CTC in ₹ LPA (total comp). Source: second table in RQ2 demographic identifiers doc.",
+    "2_years":  { "TCS": 7,  "Flipkart": 20,  "Google India": 48  },
+    "5_years":  { "TCS": 14, "Flipkart": 35,  "Google India": 80  },
+    "8_years":  { "TCS": 22, "Flipkart": 60,  "Google India": 140 }
+  },
+  "profiles": [
+    { "profile_id": "R01", "experience_years": 2, "company": "TCS",          "achievement_level": "Strong",  "current_ctc_lpa": 7   },
+    { "profile_id": "R02", "experience_years": 2, "company": "TCS",          "achievement_level": "Average", "current_ctc_lpa": 7   },
+    { "profile_id": "R03", "experience_years": 2, "company": "TCS",          "achievement_level": "Weak",    "current_ctc_lpa": 7   },
+    { "profile_id": "R04", "experience_years": 2, "company": "Flipkart",     "achievement_level": "Strong",  "current_ctc_lpa": 20  },
+    { "profile_id": "R05", "experience_years": 2, "company": "Flipkart",     "achievement_level": "Average", "current_ctc_lpa": 20  },
+    { "profile_id": "R06", "experience_years": 2, "company": "Flipkart",     "achievement_level": "Weak",    "current_ctc_lpa": 20  },
+    { "profile_id": "R07", "experience_years": 2, "company": "Google India", "achievement_level": "Strong",  "current_ctc_lpa": 48  },
+    { "profile_id": "R08", "experience_years": 2, "company": "Google India", "achievement_level": "Average", "current_ctc_lpa": 48  },
+    { "profile_id": "R09", "experience_years": 2, "company": "Google India", "achievement_level": "Weak",    "current_ctc_lpa": 48  },
+    { "profile_id": "R10", "experience_years": 5, "company": "TCS",          "achievement_level": "Strong",  "current_ctc_lpa": 14  },
+    { "profile_id": "R11", "experience_years": 5, "company": "TCS",          "achievement_level": "Average", "current_ctc_lpa": 14  },
+    { "profile_id": "R12", "experience_years": 5, "company": "TCS",          "achievement_level": "Weak",    "current_ctc_lpa": 14  },
+    { "profile_id": "R13", "experience_years": 5, "company": "Flipkart",     "achievement_level": "Strong",  "current_ctc_lpa": 35  },
+    { "profile_id": "R14", "experience_years": 5, "company": "Flipkart",     "achievement_level": "Average", "current_ctc_lpa": 35  },
+    { "profile_id": "R15", "experience_years": 5, "company": "Flipkart",     "achievement_level": "Weak",    "current_ctc_lpa": 35  },
+    { "profile_id": "R16", "experience_years": 5, "company": "Google India", "achievement_level": "Strong",  "current_ctc_lpa": 80  },
+    { "profile_id": "R17", "experience_years": 5, "company": "Google India", "achievement_level": "Average", "current_ctc_lpa": 80  },
+    { "profile_id": "R18", "experience_years": 5, "company": "Google India", "achievement_level": "Weak",    "current_ctc_lpa": 80  },
+    { "profile_id": "R19", "experience_years": 8, "company": "TCS",          "achievement_level": "Strong",  "current_ctc_lpa": 22  },
+    { "profile_id": "R20", "experience_years": 8, "company": "TCS",          "achievement_level": "Average", "current_ctc_lpa": 22  },
+    { "profile_id": "R21", "experience_years": 8, "company": "TCS",          "achievement_level": "Weak",    "current_ctc_lpa": 22  },
+    { "profile_id": "R22", "experience_years": 8, "company": "Flipkart",     "achievement_level": "Strong",  "current_ctc_lpa": 60  },
+    { "profile_id": "R23", "experience_years": 8, "company": "Flipkart",     "achievement_level": "Average", "current_ctc_lpa": 60  },
+    { "profile_id": "R24", "experience_years": 8, "company": "Flipkart",     "achievement_level": "Weak",    "current_ctc_lpa": 60  },
+    { "profile_id": "R25", "experience_years": 8, "company": "Google India", "achievement_level": "Strong",  "current_ctc_lpa": 140 },
+    { "profile_id": "R26", "experience_years": 8, "company": "Google India", "achievement_level": "Average", "current_ctc_lpa": 140 },
+    { "profile_id": "R27", "experience_years": 8, "company": "Google India", "achievement_level": "Weak",    "current_ctc_lpa": 140 }
+  ]
+}

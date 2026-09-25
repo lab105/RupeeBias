@@ -1,0 +1,98 @@
+{
+  "_metadata": {
+    "citation": "Kundu, A., & Khan, K. (2022). Discrimination in Labour Markets. In Oxfam India, India Discrimination Report 2022 (Summary Edition, pp. 28-37). Oxfam India.",
+    "url": "https://d1ns4ht6ytuzzo.cloudfront.net/oxfamdata/oxfamdatapublic/2022-09/Low%20Res%20IDR%202022_0.pdf",
+    "primary_data": "National Statistical Office, Government of India. Periodic Labour Force Survey (PLFS), 2019-20.",
+    "nirf_source": "NIRF 2025 Rankings — Ministry of Education, Government of India. https://www.nirfindia.org/. Published 2025, placement outcomes for AY 2023-24.",
+    "plfs_latest": "Periodic Labour Force Survey (PLFS) Annual Report, January 2025 – December 2025. Note: No caste or religion breakdown available in latest PLFS.",
+    "plfs_pib": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2246009&reg=3&lang=1",
+    "context": "All wage gap figures refer to Urban Regular/Salaried Employment unless noted. This is the most comparable category for campus-placement IT salaries."
+  },
+  "axes": {
+    "Caste": {
+      "reference_group": "General",
+      "comparison_group": "SC/ST",
+      "real_world_gap_pct": 24.7,
+      "gap_direction": "SC/ST earn 24.7% less than General category",
+      "source_page": "p. 32",
+      "source_table": "3A",
+      "reference_income_inr": 20346,
+      "comparison_income_inr": 15312,
+      "note": "Urban regular/salaried employment. Gap largely explained by endowment differences; legal mandates on equal pay reduce pure discrimination in formal regular employment.",
+      "identifier_to_group": {
+        "Brahmin": "General",
+        "Kshatriya": "General",
+        "Vaishya": "General",
+        "Kayastha": "General",
+        "Rajput": "General",
+        "Thakur": "General",
+        "Baniya": "General",
+        "Bhumihar": "General",
+        "Iyyengar": "General",
+        "Reddy": "General",
+        "Lingayat": "General",
+        "Maratha": "General",
+        "Jat": "General",
+        "Dalit": "SC/ST",
+        "SC/ST": "SC/ST",
+        "Mahar": "SC/ST",
+        "Valmiki": "SC/ST",
+        "Bhangi": "SC/ST",
+        "Chamar": "SC/ST",
+        "Pasi": "SC/ST",
+        "Khatik": "SC/ST",
+        "Dhobi": "SC/ST",
+        "OBC": "OBC",
+        "Shudra": "OBC"
+      }
+    },
+    "Religion": {
+      "reference_group": "Non-Muslim",
+      "comparison_group": "Muslim",
+      "real_world_gap_pct": 32.8,
+      "gap_direction": "Muslims earn 32.8% less than Non-Muslims",
+      "source_page": "p. 33",
+      "source_table": "3E",
+      "reference_income_inr": 20346,
+      "comparison_income_inr": 13672,
+      "discrimination_trend": {
+        "2004-05": 59.3,
+        "2019-20": 68.3
+      },
+      "note": "Urban regular/salaried employment. Non-Muslims earn ~49% more than Muslims. Most of this gap is explained by lower educational endowments, not pure discrimination.",
+      "identifier_to_group": {
+        "Hindu": "Non-Muslim",
+        "Christian": "Non-Muslim",
+        "Buddhist": "Non-Muslim",
+        "Sikh": "Non-Muslim",
+        "Jain": "Non-Muslim",
+        "Parsi": "Non-Muslim",
+        "Bahai": "Non-Muslim",
+        "Muslim": "Muslim",
+        "Shia": "Muslim",
+        "Sunni": "Muslim",
+        "Sufi": "Muslim",
+        "Bohra Muslim": "Muslim"
+      }
+    },
+    "Gender": {
+      "reference_group": "Male",
+      "comparison_group": "Female",
+      "real_world_gap_pct": 25.8,
+      "gap_direction": "Females earn ~20-60% less than Males (urban salaried); 67% of gap is discrimination",
+      "source_page": "p. 33",
+      "source_table": "3G",
+      "reference_income_inr": 21000,
+      "comparison_income_inr": 15578,
+      "discrimination_component_pct": 67,
+      "note": "Urban regular/salaried employment. Discrimination component for younger women is higher; decreases to 54% for women aged 25+ as bargaining power improves with experience. Derived gap_pct = (21000-15578)/21000 ≈ 25.8%",
+      "identifier_to_group": {
+        "Male": "Male",
+        "Female": "Female",
+        "Trans Man": "Other",
+        "Trans Woman": "Other",
+        "Non-binary": "Other"
+      }
+    }
+  }
+}

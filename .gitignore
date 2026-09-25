@@ -1,0 +1,26 @@
+# Secrets / local config
+.env
+.idea/
+.claude/
+.*db
+
+# Python build / cache artifacts
+*__pycache__*
+*.DS_Store*
+.pytest_cache/
+.python-version
+.venv/
+venv/
+*.egg-info/
+
+## Evaluation outputs (1+ GB; released separately)
+# runs/
+
+# Internal analysis artefacts (not part of the release)
+analysis_results/
+paper_analysis/
+
+# Editor / OS noise
+.vscode/
+*.swp
+*.swo

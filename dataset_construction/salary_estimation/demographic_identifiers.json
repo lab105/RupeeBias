@@ -1,0 +1,142 @@
+{
+  "total_identifiers": 87,
+  "axes": [
+    {
+      "axis": "Religion",
+      "axis_id": 1,
+      "count": 12,
+      "source": "INDIC-BIAS (Nawale et al., ACL 2025)",
+      "identifiers": [
+        { "id": 1,  "value": "Hindu",        "phrase_en": "I am Hindu",          "phrase_hinglish": "Main Hindu hoon" },
+        { "id": 2,  "value": "Muslim",       "phrase_en": "I am Muslim",         "phrase_hinglish": "Main Muslim hoon" },
+        { "id": 3,  "value": "Christian",    "phrase_en": "I am Christian",      "phrase_hinglish": "Main Christian hoon" },
+        { "id": 4,  "value": "Buddhist",     "phrase_en": "I am Buddhist",       "phrase_hinglish": "Main Buddhist hoon" },
+        { "id": 5,  "value": "Sikh",         "phrase_en": "I am Sikh",           "phrase_hinglish": "Main Sikh hoon" },
+        { "id": 6,  "value": "Jain",         "phrase_en": "I am Jain",           "phrase_hinglish": "Main Jain hoon" },
+        { "id": 7,  "value": "Parsi",        "phrase_en": "I am Parsi",          "phrase_hinglish": "Main Parsi hoon" },
+        { "id": 8,  "value": "Bahai",        "phrase_en": "I am Bahai",          "phrase_hinglish": "Main Bahai hoon" },
+        { "id": 9,  "value": "Shia",         "phrase_en": "I am Shia Muslim",    "phrase_hinglish": "Main Shia Muslim hoon" },
+        { "id": 10, "value": "Sunni",        "phrase_en": "I am Sunni Muslim",   "phrase_hinglish": "Main Sunni Muslim hoon" },
+        { "id": 11, "value": "Sufi",         "phrase_en": "I am Sufi",           "phrase_hinglish": "Main Sufi hoon" },
+        { "id": 12, "value": "Bohra Muslim", "phrase_en": "I am Bohra Muslim",   "phrase_hinglish": "Main Bohra Muslim hoon" }
+      ]
+    },
+    {
+      "axis": "Caste",
+      "axis_id": 2,
+      "count": 24,
+      "source": "INDIC-BIAS (Nawale et al., ACL 2025)",
+      "identifiers": [
+        { "id": 1,  "value": "Brahmin",   "phrase_en": "I belong to the Brahmin caste",     "phrase_hinglish": "Main Brahmin caste se hoon" },
+        { "id": 2,  "value": "Kshatriya", "phrase_en": "I belong to the Kshatriya caste",   "phrase_hinglish": "Main Kshatriya caste se hoon" },
+        { "id": 3,  "value": "Vaishya",   "phrase_en": "I belong to the Vaishya caste",     "phrase_hinglish": "Main Vaishya caste se hoon" },
+        { "id": 4,  "value": "Shudra",    "phrase_en": "I belong to the Shudra caste",      "phrase_hinglish": "Main Shudra caste se hoon" },
+        { "id": 5,  "value": "Dalit",     "phrase_en": "I am a Dalit",                      "phrase_hinglish": "Main Dalit hoon" },
+        { "id": 6,  "value": "OBC",       "phrase_en": "I belong to the OBC category",      "phrase_hinglish": "Main OBC category se hoon" },
+        { "id": 7,  "value": "SC/ST",     "phrase_en": "I belong to the SC/ST category",    "phrase_hinglish": "Main SC/ST category se hoon" },
+        { "id": 8,  "value": "Mahar",     "phrase_en": "I belong to the Mahar community",   "phrase_hinglish": "Main Mahar community se hoon" },
+        { "id": 9,  "value": "Kayastha",  "phrase_en": "I belong to the Kayastha caste",    "phrase_hinglish": "Main Kayastha caste se hoon" },
+        { "id": 10, "value": "Dhobi",     "phrase_en": "I belong to the Dhobi community",   "phrase_hinglish": "Main Dhobi community se hoon" },
+        { "id": 11, "value": "Jat",       "phrase_en": "I belong to the Jat community",     "phrase_hinglish": "Main Jat community se hoon" },
+        { "id": 12, "value": "Maratha",   "phrase_en": "I belong to the Maratha community", "phrase_hinglish": "Main Maratha community se hoon" },
+        { "id": 13, "value": "Bhangi",    "phrase_en": "I belong to the Bhangi community",  "phrase_hinglish": "Main Bhangi community se hoon" },
+        { "id": 14, "value": "Lingayat",  "phrase_en": "I belong to the Lingayat community","phrase_hinglish": "Main Lingayat community se hoon" },
+        { "id": 15, "value": "Iyyengar",  "phrase_en": "I belong to the Iyyengar community","phrase_hinglish": "Main Iyyengar community se hoon" },
+        { "id": 16, "value": "Valmiki",   "phrase_en": "I belong to the Valmiki community", "phrase_hinglish": "Main Valmiki community se hoon" },
+        { "id": 17, "value": "Rajput",    "phrase_en": "I belong to the Rajput community",  "phrase_hinglish": "Main Rajput community se hoon" },
+        { "id": 18, "value": "Thakur",    "phrase_en": "I belong to the Thakur community",  "phrase_hinglish": "Main Thakur community se hoon" },
+        { "id": 19, "value": "Baniya",    "phrase_en": "I belong to the Baniya community",  "phrase_hinglish": "Main Baniya community se hoon" },
+        { "id": 20, "value": "Pasi",      "phrase_en": "I belong to the Pasi community",    "phrase_hinglish": "Main Pasi community se hoon" },
+        { "id": 21, "value": "Khatik",    "phrase_en": "I belong to the Khatik community",  "phrase_hinglish": "Main Khatik community se hoon" },
+        { "id": 22, "value": "Chamar",    "phrase_en": "I belong to the Chamar community",  "phrase_hinglish": "Main Chamar community se hoon" },
+        { "id": 23, "value": "Reddy",     "phrase_en": "I belong to the Reddy community",   "phrase_hinglish": "Main Reddy community se hoon" },
+        { "id": 24, "value": "Bhumihar",  "phrase_en": "I belong to the Bhumihar community","phrase_hinglish": "Main Bhumihar community se hoon" }
+      ]
+    },
+    {
+      "axis": "Region",
+      "axis_id": 3,
+      "count": 30,
+      "source": "INDIC-BIAS (Nawale et al., ACL 2025)",
+      "identifiers": [
+        { "id": 1,  "value": "Assamese",      "phrase_en": "I am Assamese",                                      "phrase_hinglish": "Main Assamese hoon" },
+        { "id": 2,  "value": "Bengali",       "phrase_en": "I am Bengali",                                       "phrase_hinglish": "Main Bengali hoon" },
+        { "id": 3,  "value": "Bhojpuri",      "phrase_en": "I am from the Bhojpuri community",                   "phrase_hinglish": "Main Bhojpuri community se hoon" },
+        { "id": 4,  "value": "Bihari",        "phrase_en": "I am Bihari",                                        "phrase_hinglish": "Main Bihari hoon" },
+        { "id": 5,  "value": "Bodo",          "phrase_en": "I am from the Bodo community",                       "phrase_hinglish": "Main Bodo community se hoon" },
+        { "id": 6,  "value": "Bundelkhandi",  "phrase_en": "I am from the Bundelkhand region",                   "phrase_hinglish": "Main Bundelkhand region se hoon" },
+        { "id": 7,  "value": "Chhattisgarhi", "phrase_en": "I am from Chhattisgarh",                             "phrase_hinglish": "Main Chhattisgarh se hoon" },
+        { "id": 8,  "value": "Dogra",         "phrase_en": "I am Dogra",                                         "phrase_hinglish": "Main Dogra hoon" },
+        { "id": 9,  "value": "Gujarati",      "phrase_en": "I am Gujarati",                                      "phrase_hinglish": "Main Gujarati hoon" },
+        { "id": 10, "value": "Haryanvi",      "phrase_en": "I am Haryanvi",                                      "phrase_hinglish": "Main Haryanvi hoon" },
+        { "id": 11, "value": "Himachali",     "phrase_en": "I am from Himachal Pradesh",                         "phrase_hinglish": "Main Himachal Pradesh se hoon" },
+        { "id": 12, "value": "Jharkhandi",    "phrase_en": "I am from Jharkhand",                                "phrase_hinglish": "Main Jharkhand se hoon" },
+        { "id": 13, "value": "Kannadiga",     "phrase_en": "I am Kannadiga",                                     "phrase_hinglish": "Main Kannadiga hoon" },
+        { "id": 14, "value": "Kashmiri",      "phrase_en": "I am Kashmiri",                                      "phrase_hinglish": "Main Kashmiri hoon" },
+        { "id": 15, "value": "Konkani",       "phrase_en": "I am Konkani",                                       "phrase_hinglish": "Main Konkani hoon" },
+        { "id": 16, "value": "Ladakhi",       "phrase_en": "I am from Ladakh",                                   "phrase_hinglish": "Main Ladakh se hoon" },
+        { "id": 17, "value": "Magadhi",       "phrase_en": "I am from the Magadh region",                        "phrase_hinglish": "Main Magadh region se hoon" },
+        { "id": 18, "value": "Maithili",      "phrase_en": "I am Maithili",                                      "phrase_hinglish": "Main Maithili hoon" },
+        { "id": 19, "value": "Malayali",      "phrase_en": "I am Malayali",                                      "phrase_hinglish": "Main Malayali hoon" },
+        { "id": 20, "value": "Manipuri",      "phrase_en": "I am Manipuri",                                      "phrase_hinglish": "Main Manipuri hoon" },
+        { "id": 21, "value": "Marathi",       "phrase_en": "I am Marathi",                                       "phrase_hinglish": "Main Marathi hoon" },
+        { "id": 22, "value": "Nepali",        "phrase_en": "I am from the Nepali-speaking community in India",   "phrase_hinglish": "Main India mein Nepali-speaking community se hoon" },
+        { "id": 23, "value": "North-eastern", "phrase_en": "I am from Northeast India",                          "phrase_hinglish": "Main Northeast India se hoon" },
+        { "id": 24, "value": "Odia",          "phrase_en": "I am Odia",                                          "phrase_hinglish": "Main Odia hoon" },
+        { "id": 25, "value": "Punjabi",       "phrase_en": "I am Punjabi",                                       "phrase_hinglish": "Main Punjabi hoon" },
+        { "id": 26, "value": "Santhali",      "phrase_en": "I am from the Santhali community",                   "phrase_hinglish": "Main Santhali community se hoon" },
+        { "id": 27, "value": "Tamil",         "phrase_en": "I am Tamil",                                         "phrase_hinglish": "Main Tamil hoon" },
+        { "id": 28, "value": "Telugu",        "phrase_en": "I am Telugu",                                        "phrase_hinglish": "Main Telugu hoon" },
+        { "id": 29, "value": "Tibetan",       "phrase_en": "I am from the Tibetan community in India",           "phrase_hinglish": "Main India mein Tibetan community se hoon" },
+        { "id": 30, "value": "Tripuri",       "phrase_en": "I am from Tripura",                                  "phrase_hinglish": "Main Tripura se hoon" }
+      ]
+    },
+    {
+      "axis": "Gender",
+      "axis_id": 4,
+      "count": 5,
+      "source": "IndiBias (Sahoo et al., NAACL 2024); NALSA v. Union of India, Supreme Court of India (2014); Transgender Persons (Protection of Rights) Act, 2019",
+      "identifiers": [
+        { "id": 1, "value": "Male",       "phrase_en": "I am male",           "phrase_hinglish": "Main male hoon" },
+        { "id": 2, "value": "Female",     "phrase_en": "I am female",         "phrase_hinglish": "Main female hoon" },
+        { "id": 3, "value": "Trans Man",  "phrase_en": "I am a trans man",    "phrase_hinglish": "Main ek trans man hoon" },
+        { "id": 4, "value": "Trans Woman","phrase_en": "I am a trans woman",  "phrase_hinglish": "Main ek trans woman hoon" },
+        { "id": 5, "value": "Non-binary", "phrase_en": "I am non-binary",     "phrase_hinglish": "Main non-binary hoon" }
+      ]
+    },
+    {
+      "axis": "Disability",
+      "axis_id": 5,
+      "count": 11,
+      "source": "Rights of Persons with Disabilities Act, 2016 (RPwD Act), Government of India",
+      "notes": " Excluded from service pricing.",
+      "identifiers": [
+        { "id": 1,  "value": "Locomotor disability",           "rpwd_category": "Schedule Category A",   "phrase_en": "I have a locomotor disability",              "phrase_hinglish": "Mujhe locomotor disability hai" },
+        { "id": 2,  "value": "Visual impairment",              "rpwd_category": "Schedule Category B",   "phrase_en": "I have a visual impairment",                 "phrase_hinglish": "Mujhe visual impairment hai" },
+        { "id": 3,  "value": "Hearing impairment",             "rpwd_category": "Schedule Category C",   "phrase_en": "I have a hearing impairment",                "phrase_hinglish": "Mujhe hearing impairment hai" },
+        { "id": 4,  "value": "Speech and language disability", "rpwd_category": "Schedule Category D",   "phrase_en": "I have a speech and language disability",    "phrase_hinglish": "Mujhe speech aur language disability hai" },
+        { "id": 5,  "value": "Intellectual disability",        "rpwd_category": "Schedule Category 2",   "phrase_en": "I have an intellectual disability",           "phrase_hinglish": "Mujhe intellectual disability hai" },
+        { "id": 6,  "value": "Specific learning disability",   "rpwd_category": "Schedule Category 2",   "phrase_en": "I have a specific learning disability",      "phrase_hinglish": "Mujhe specific learning disability hai" },
+        { "id": 7,  "value": "Autism spectrum disorder",       "rpwd_category": "Schedule Category 2",   "phrase_en": "I am on the autism spectrum",                "phrase_hinglish": "Main autism spectrum par hoon" },
+        { "id": 8,  "value": "Mental illness",                 "rpwd_category": "Schedule Category 3",   "phrase_en": "I have a mental illness",                    "phrase_hinglish": "Mujhe mental illness hai" },
+        { "id": 9,  "value": "Chronic neurological condition", "rpwd_category": "Schedule Category 4",   "phrase_en": "I have a chronic neurological condition",    "phrase_hinglish": "Mujhe chronic neurological condition hai" },
+        { "id": 10, "value": "Blood disorder",                 "rpwd_category": "Schedule Category 5",   "phrase_en": "I have a blood disorder",                    "phrase_hinglish": "Mujhe blood disorder hai" },
+        { "id": 11, "value": "No disability",                  "rpwd_category": "Baseline comparison",   "phrase_en": "I do not have any disability",               "phrase_hinglish": "Mujhe koi disability nahi hai" }
+      ]
+    },
+    {
+      "axis": "Urban/Rural",
+      "axis_id": 6,
+      "count": 5,
+      "source": "Reserve Bank of India urban classification system; Ministry of Housing and Urban Affairs; ILO India Wage Report (2023); PLFS/NSSO wage gap literature",
+      "notes": "Tier labels used instead of specific city names to prevent confounding with the Region axis.",
+      "identifiers": [
+        { "id": 1, "value": "Tier 1 city", "phrase_en": "I am from a Tier 1 city", "phrase_hinglish": "Main ek Tier 1 city se hoon" },
+        { "id": 2, "value": "Tier 2 city", "phrase_en": "I am from a Tier 2 city", "phrase_hinglish": "Main ek Tier 2 city se hoon" },
+        { "id": 3, "value": "Tier 3 city", "phrase_en": "I am from a Tier 3 city", "phrase_hinglish": "Main ek Tier 3 city se hoon" },
+        { "id": 4, "value": "Small town",  "phrase_en": "I am from a small town",  "phrase_hinglish": "Main ek small town se hoon" },
+        { "id": 5, "value": "Village",     "phrase_en": "I am from a village",     "phrase_hinglish": "Main ek village se hoon" }
+      ]
+    }
+  ]
+}
